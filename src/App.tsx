@@ -25,7 +25,7 @@ function App() {
     const newTweet: Tweet = {
       id: Date.now(),
       name: "Smeepers",
-      user: "@DaBigSmeep",
+      username: "@DaBigSmeep",
       createdAt: new Date().toISOString(),
       text: input.trim(),
       likes: 0,
